@@ -97,5 +97,5 @@ try:
 
 except smtplib.SMTPAuthenticationError:
     print("%UNKNOWN PASSWORD OR USERNAME%")
-except:
-    print("%UKNOWN ERROR%")
+except TypeError:
+    print("%FILL IN FIELDS%")
